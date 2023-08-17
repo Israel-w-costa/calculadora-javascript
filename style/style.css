@@ -1,0 +1,81 @@
+@import url("./reset.css");
+
+:root {
+    --cor-azul:#114153;
+    --cor-vermelho:#fe1515;
+    --cor-amarelo:#FFFF00;
+    --cor-verde:#37ff00;
+    --cor-branco:#ffffff;
+    --cor-cinza:#4a4949;
+    --fonte-principal:'Roboto';
+}
+
+body{
+    background-image: url("https://img.freepik.com/vetores-premium/banner-de-vetor-com-simbolos-de-educacao-online-plano-de-fundo-transparente-com-rabiscos-de-matematica-fisica-e-quimica_522613-142.jpg?w=2000"
+    )
+}
+
+.container {
+    font-family: var(--fonte-principal);
+    border: 2px solid var(--cor-cinza);
+    border-radius: 10px;
+    width: 40%;
+    height: 70vh;
+    margin: 4em auto;
+    background-color: var(--cor-cinza);
+}
+
+.caixa-de-entrada {
+    margin: 2em 3em;
+    width:80%;
+    height: 20%;
+    margin:3em 4em 1em 4em;
+}
+
+.container-conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0em 3em ;
+}
+
+.numeros {
+    display: flex;
+    flex-wrap: wrap;
+    width:85%;
+}
+
+.operadores {
+    display: flex;
+    flex-wrap: wrap;
+    width:60%;
+    margin-bottom: 5em;
+}
+
+.botao {
+    background-color: var(--cor-branco);
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    font-size: 32px;
+    margin:5px;
+    color: var(--cor-azul);
+}
+
+
+.numero-zero {
+    width: 60%;
+}
+
+.operador-c {
+    background-color: var(--cor-vermelho);
+}
+
+.operador-mais {
+    background-color: var(--cor-verde);
+
+}
+
+.operador-igual {
+    background-color: var(--cor-amarelo);
+}
+
