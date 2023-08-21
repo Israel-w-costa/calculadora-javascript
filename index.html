@@ -14,28 +14,33 @@
 <body>
     <main class="principal">
         <div class="container">
-            <input type="button" value="" class="caixa-de-entrada">
+            <input type="button" value="" class="caixa-de-entrada" id="caixa-de-entrada">
+            <label for="caixa-de-entrada" id="caixa-de-entrada" class="container-caixa"></label>
             <div class="container-conteudo">
                 <div class="numeros">
-                <input type="button" value="7" class="botao botao-numero ">
-                <input type="button" value="8" class="botao botao-numero ">
-                <input type="button" value="9" class="botao botao-numero ">
-                <input type="button" value="4" class="botao botao-numero ">
-                <input type="button" value="5" class="botao botao-numero ">
-                <input type="button" value="6" class="botao botao-numero ">
-                <input type="button" value="1" class="botao botao-numero ">
-                <input type="button" value="2" class="botao botao-numero ">
-                <input type="button" value="3" class="botao botao-numero ">
-                <input type="button" value="0" class="botao botao-numero numero-zero ">
-                <input type="button" value="." class="botao botao-numero ">
+                    <label for="numero">
+                        <input type="button" value="7" class="botao" id="numero" data-id="7">
+                        <input type="button" value="8" class="botao" id="numero" data-id="8">
+                        <input type="button" value="9" class="botao" id="numero" data-id="9">
+                        <input type="button" value="4" class="botao" id="numero" data-id="4">
+                        <input type="button" value="5" class="botao" id="numero" data-id="5">
+                        <input type="button" value="6" class="botao" id="numero" data-id="6">
+                        <input type="button" value="1" class="botao" id="numero" data-id="1">
+                        <input type="button" value="2" class="botao" id="numero" data-id="2">
+                        <input type="button" value="3" class="botao" id="numero" data-id="3">
+                        <input type="button" value="0" class="botao numero-zero" id="numero" data-id="0">
+                        <input type="button" value="." class="botao" id="numero" data-id=".">
+                    </label>    
                 </div>
                 <div class="operadores">
-                    <input type="button" value="c" class="botao botao-operados operador-c"> 
-                    <input type="button" value="/" class="botao botao-operados"> 
-                    <input type="button" value="x" class="botao botao-operados"> 
-                    <input type="button" value="-" class="botao botao-operados"> 
-                    <input type="button" value="+" class="botao botao-operados operador-mais" > 
-                    <input type="button" value="=" class="botao botao-operados operador-igual"> 
+                    <label for="operador">
+                        <input type="button" value="c" class="botao operador-c" id="operador"> 
+                        <input type="button" value="/" class="botao" id="operador"> 
+                        <input type="button" value="x" class="botao" id="operador"> 
+                        <input type="button" value="-" class="botao" id="operador"> 
+                        <input type="button" value="+" class="botao operador-mais" id="operador"> 
+                        <input type="button" value="=" class="botao operador-igual" id="operador">
+                    </label>     
                 </div>
             </div>    
         </div>

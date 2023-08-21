@@ -11,8 +11,7 @@
 }
 
 body{
-    background-image: url("https://img.freepik.com/vetores-premium/banner-de-vetor-com-simbolos-de-educacao-online-plano-de-fundo-transparente-com-rabiscos-de-matematica-fisica-e-quimica_522613-142.jpg?w=2000"
-    )
+    background-image: url("https://img.freepik.com/vetores-premium/banner-de-vetor-com-simbolos-de-educacao-online-plano-de-fundo-transparente-com-rabiscos-de-matematica-fisica-e-quimica_522613-142.jpg?w=2000");
 }
 
 .container {
@@ -26,11 +25,13 @@ body{
 }
 
 .caixa-de-entrada {
-    margin: 2em 3em;
     width:80%;
     height: 20%;
-    margin:3em 4em 1em 4em;
+    margin:1em 1em 0.2em 1.1em;
+    text-align: end;
+    font-size: 3em;
 }
+
 
 .container-conteudo{
     display: flex;
@@ -59,6 +60,7 @@ body{
     font-size: 32px;
     margin:5px;
     color: var(--cor-azul);
+    cursor: pointer;
 }
 
 
