@@ -20,7 +20,6 @@ function addNumber (number, dataNumber) {
    if (!found) {
     result.value += dataNumber
     storeNumber(number)
-    fullNumber ( arrayNumber)
 }}
 
 function storeNumber(number) {
